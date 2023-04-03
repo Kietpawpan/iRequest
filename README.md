@@ -7,4 +7,5 @@ v0.0.0
 - First darft in HTML
 - One agency, OPS-MNRE, included.
 - Thai nationality supported.
+- Works on Windows 10 PC
 - Bad UI
