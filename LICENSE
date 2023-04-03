@@ -1,6 +1,8 @@
-iRequest relies on the free template from w3docs.com, https://www.w3docs.com/tools/editor/5789, with copyright information given on https://www.w3docs.com/learn-html/html-form-templates.html, which notifies the user that "the below-mentioned forms are free to copy and use."
+The code in this repository currently relies on w3docs's HTML/CSS template form. 
+For the license for the template, see https://www.w3docs.com/learn-html/html-form-templates.html, 
+which shows that this form free to copy and use.
 
-Other Contents in this repo is
+Aside from the above, the license for all OTHER content in this repo is as follows:
 
 Copyright (c) 2023 Monte Kietpawpan
 
