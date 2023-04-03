@@ -4,8 +4,7 @@ iRequest<sup>TM</sup> is an information requesting e-service to help people make
 ## Version History
 v0.0.0 
 - April 3, 2023
-- First darft in HTML
-- One agency, OPS-MNRE, included.
-- Thai nationality supported.
-- Works on Windows 10 PC
-- Bad UI
+- First darft in HTML/CSS
+- One agency, OPS-MNRE, included
+- Thai nationality supported
+- Works on Windows/iOS devices 
