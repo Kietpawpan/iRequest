@@ -1,0 +1,50 @@
+<!HTML>
+
+<!Declair the js function, called copyToClip, 
+to copy text to the clipboard once the copy button is clicked>
+
+<script>
+function copyToClip(str) {
+  function listener(e) {
+    e.clipboardData.setData("text/html", str);
+    e.clipboardData.setData("text/plain", str);
+    e.preventDefault();
+  }
+  document.addEventListener("copy", listener);
+  document.execCommand("copy");
+  document.removeEventListener("copy", listener);
+};
+</script>
+
+<!Show the clickable button, namely Copy to Clipboard>
+
+<button onclick="copyToClip(document.getElementById('richtext').innerHTML)">
+  Copy to Clipboard
+  </button>
+<!Shows text to inform the user what to do.>
+<div>
+<br>
+กดปุ่ม <kbd>Copy to Clipboard</kbd> แล้ววางข้อมูลในอีเมลส่วนตัวของท่าน จะได้ไม่ต้องพิมพ์แบบฟอร์มใหม่
+<br><br>
+
+<!Add prescribed text in the info request form, which appear in a customers' email.>
+หากสงสัย โปรดสอบถามศูนย์บริการร่วม ทส. สายด่วน 1310</i>
+</div>
+
+<!Add text to be copied by a click.>
+<div id=richtext style="display:none">
+เรียน ปลัดกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม
+
+ข้าพเจ้า.........อยู่บ้านเลขที่....ตำบล...อำเภอ...จังหวัด.... โทรศัพท์... 
+มีความประสงค์ขอข้อมูลข่าวสาร ดังต่อไปนี้
+1......
+2......
+3......
+4......
+
+จึงเรียนมาเพื่อดำเนินการให้ตามความประสงค์ของข้าพเจ้าต่อไปด้วย จักขอบคุณมาก
+
+ขอแสดงความนับถือ
+นาย/นาง/นางสาว.......ผู้ขอ
+ 
+</div>
