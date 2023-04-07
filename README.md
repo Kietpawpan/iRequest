@@ -3,6 +3,8 @@
 
 [SeeMe<sup>TM</sup>](https://kietpawpan.github.io/iRequest/SeeMe.html) is an e-service prototype for appoiment making. People can check the available date times convenient to them for visting the Ministry to obtain a hard-copy of the requested governmental information, and can make appoiment via e-mail template. 
 
+[infoServe<sup>TM</sup]((https://kietpawpan.github.io/iRequest/infoServe.html) is UI giving links to GECC OPS-MNRE eservices. 
+
 ## Version History
 __v0.0.2__
 - April 7, 2023
